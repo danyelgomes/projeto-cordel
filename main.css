@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+}
+
+header > h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 10vw;
+    font-family: 'Passion One', cursive;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+header > p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 1vw;
+    display: block;
+}
+
+header a {
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main p {
+    font-family: 'Sriracha', cursive;
+    font-size: 1.1em;
+    padding: 100px 0px 40px;
+    padding-left: 30px;
+    line-height: 2em;
+    margin-bottom: 0px;
+}
+body {
+    height: 100vh;
+}
+
+@media (max-height: 100vw) {}
+
+div.flor {
+    background-image: url(imagens/joaninha.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 440px;
+}
+
+
+p.flor2 {
+    font-size: 17px;
+    height: 200px;
+    width: 200px;
+    color: white;
+    display: relative;
+    margin-top: 100px;
+    margin-left: 30px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.473);
+    
+}
+
+div.livro2 {
+        background-image: url(imagens/background002.jpg);
+        background-position: right center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 440px;
+}
+
+p.livro {
+    font-size: 17px;
+    height: 250px;
+    width: 200px;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 30px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.473);
+
+}
