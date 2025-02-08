@@ -8,7 +8,7 @@
 
 header {
     padding: 20px;
-    height: 200px;
+    height: 25vw;
     background-color: rgb(0, 0, 0);
 }
 
@@ -27,7 +27,7 @@ header > p{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 100;
-    font-size: 1vw;
+    font-size: 1em;
     display: block;
 }
 
@@ -42,19 +42,17 @@ header a:hover {
     text-decoration: underline;
 }
 
-main p {
+main > p {
     font-family: 'Sriracha', cursive;
-    font-size: 1.1em;
-    padding: 100px 0px 40px;
+    font-size: 3vw;
+    margin: 60px 0px 30px;
     padding-left: 30px;
     line-height: 2em;
-    margin-bottom: 0px;
-}
-body {
-    height: 100vh;
+    height: 40vw;
 }
 
-@media (max-height: 100vw) {}
+
+
 
 div.flor {
     background-image: url(imagens/joaninha.jpg);
@@ -62,21 +60,23 @@ div.flor {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 440px;
+    height: 90vw;
 }
 
 
 p.flor2 {
-    font-size: 17px;
-    height: 200px;
-    width: 200px;
+    font-size: 3.5vw;
+    margin-top: 15vw;
+    margin-bottom: 0vw;
+    left: 30px;
     color: white;
-    display: relative;
-    margin-top: 100px;
-    margin-left: 30px;
-    padding: 10px;
+    position: absolute;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.473);
+    font-family: 'Sriracha', cursive;
+    height: 45vw;
     
+
 }
 
 div.livro2 {
@@ -85,18 +85,18 @@ div.livro2 {
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        height: 440px;
+        height: 88vw;
 }
 
 p.livro {
-    font-size: 17px;
-    height: 250px;
-    width: 200px;
-    color: white;
-    position: relative;
-    top: 100px;
+    font-size: 3.5vw;
+    margin-top: 10vw;
+    margin-bottom: 1vw;
     left: 30px;
+    color: white;
+    position: absolute;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.473);
-
+    font-family: 'Sriracha', cursive;
+    height: 45vw;
 }
