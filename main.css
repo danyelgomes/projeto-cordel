@@ -44,7 +44,7 @@ header a:hover {
 
 main > p {
     font-family: 'Sriracha', cursive;
-    font-size: 3vw;
+    font-size: 3.5vw;
     margin: 60px 0px 30px;
     padding-left: 30px;
     line-height: 2em;
@@ -78,6 +78,16 @@ p.flor2 {
     
 
 }
+.top {
+    margin-bottom: 170px;
+    margin-top: 100px;
+}
+.orar {
+    margin-top: 20vw;
+}
+.bottom {
+    margin-bottom: 150px;
+}
 
 div.livro2 {
         background-image: url(imagens/background002.jpg);
@@ -90,7 +100,7 @@ div.livro2 {
 
 p.livro {
     font-size: 3.5vw;
-    margin-top: 10vw;
+    margin-top: 20vw;
     margin-bottom: 1vw;
     left: 30px;
     color: white;
@@ -98,5 +108,26 @@ p.livro {
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.473);
     font-family: 'Sriracha', cursive;
-    height: 45vw;
+    height: 48vw;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    margin-top: 180px;
+    font-size: 1vw;
+    padding-bottom: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
